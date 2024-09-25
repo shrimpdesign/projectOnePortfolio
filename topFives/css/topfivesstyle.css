@@ -1,0 +1,21 @@
+*{
+    margin: 10px;
+}
+
+header{
+    background-color: lightblue;
+    padding: 50px;
+}
+
+header a{
+color: cadetblue;
+font-family: "glammo";
+font-size: 20px;
+text-decoration: none;
+text-transform: uppercase;
+padding: 140px;
+}
+
+body{
+    background-color: antiquewhite;
+}

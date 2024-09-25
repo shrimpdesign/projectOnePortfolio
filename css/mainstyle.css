@@ -1,0 +1,56 @@
+/*Introduction*/
+
+*{
+    margin: 10px;
+}
+
+header{
+    background-color: lightblue;
+    padding: 50px;
+}
+
+header a{
+color: cadetblue;
+font-family: "glammo";
+font-size: 20px;
+text-decoration: none;
+text-transform: uppercase;
+padding: 140px;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.description{
+    
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 300;
+    padding-left: 400px;
+}
+
+.mofusand{
+    max-width: 50%;
+    height: auto;
+    border-radius: 8%;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+
+.portrait {
+    width: 30%;
+    position: absolute;
+    right: 50px;
+    width: 300px;
+    border-radius: 8%;
+}
+
+p{
+    position: relative;
+    padding-right: 30%;
+    line-height: 2;
+    text-align: center;
+}
