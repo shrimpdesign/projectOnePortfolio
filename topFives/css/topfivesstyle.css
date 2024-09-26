@@ -8,12 +8,12 @@ header{
 }
 
 header a{
-color: cadetblue;
-font-family: "glammo";
-font-size: 20px;
-text-decoration: none;
-text-transform: uppercase;
-padding: 140px;
+    color: cadetblue;
+    font-family: "glammo";
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 140px;
 }
 
 body{
