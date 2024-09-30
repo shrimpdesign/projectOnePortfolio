@@ -6,20 +6,20 @@
 }
 
 header{
-    background-color: lightblue;
+    background-color: #7391C8;
     /* padding: 15px; */
 }
 
 header a{
-color: cadetblue;
-font-family: "glammo";
+color: #52688F;
+font-family: "glammo", sans-serif;
 font-size: 20px;
 text-decoration: none;
 text-transform: uppercase;
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: #E3E7F1;
 }
 
 h1{
@@ -39,6 +39,26 @@ p{
     font-family: "quiche-sans", sans-serif;
     font-weight: 400;
     font-size: 15px;
+}
+
+footer{
+    background-color: #52688F;
+    /* margin-left: 35%; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+
+footer a{
+    color: #BDC6D9;
+    text-decoration: none;
+    font-family: "quiche-sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    text-transform: uppercase;
 }
 
 /* flexbox designing */

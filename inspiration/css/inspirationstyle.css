@@ -1,21 +1,163 @@
+/* css styling */
+
 *{
     margin: 10px;
+    padding: 0;
 }
 
 header{
-    background-color: lightblue;
-    padding: 50px;
+    background-color: #7391C8;
+    /* padding: 30px; */
 }
 
 header a{
-color: cadetblue;
-font-family: "glammo";
+color: #52688F;
+font-family: "glammo", sans-serif;
 font-size: 20px;
 text-decoration: none;
 text-transform: uppercase;
-padding: 140px;
+/* padding: 140px; */
+width: 80%;
+padding-left: 15%;
+position: relative;
+bottom: 85px;
+right: 110px;
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: #E3E7F1;
+}
+
+h1{
+    color: #52688F;
+    font-family: "glammo", sans-serif;
+    /* font-family: "tomarik-brush", sans-serif; */
+    /* font-family: "quiche-sans", sans-serif; */
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+article{
+    text-align: center;
+}
+
+footer{
+    background-color: #52688F;
+    /* margin-left: 35%; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+
+footer a{
+    color: #BDC6D9;
+    text-decoration: none;
+    font-family: "quiche-sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+/* flexbox designing */
+
+#into{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mofusand{
+    /* background-color: rgb(134, 188, 206); */
+    border-radius: 8%;
+    width: 20%;
+}
+
+.daniel a{
+    text-decoration: none;
+    color: rgb(53, 80, 112);
+    font-family: "glammo", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.schrier{
+    width: 90%;
+    padding: 15px;
+    background-color: #9AB19A;
+}
+
+.daniel p{
+    font-family: "tomarik-brush", sans-serif;
+    color: #A39D92;
+    padding-bottom: 20px;
+}
+
+.boringfriends a{
+    text-decoration: none;
+    color: rgb(53, 80, 112);
+    font-family: "glammo", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.boring{
+    width: 30%;
+    padding: 10px;
+    background-color: #7391C8;
+    border-radius: 8%;
+}
+
+.friend{
+    width: 26.5%;
+    padding: 10px;
+    background-color: #7391C8; 
+    border-radius: 8%;
+}
+
+.work{
+    width: 25%;
+    padding: 10px;
+    background-color: #7391C8;
+    border-radius: 8%;
+}
+
+.boringfriends p{
+    font-family: "tomarik-brush", sans-serif;
+    color: #A39D92;
+    padding-bottom: 20px;
+}
+
+.madebyabra a{
+    text-decoration: none;
+    color: rgb(53, 80, 112);
+    font-family: "glammo", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.byabra{
+    width: 19.5%;
+    background-color: #9AB19A;
+    border-radius: 8%;
+}
+
+.abra{
+    width: 20%;
+    background-color: #9AB19A;
+    border-radius: 8%;
+}
+
+.madebyabra p{
+    font-family: "tomarik-brush", sans-serif;
+    color: #A39D92;
+    padding-bottom: 20px;
 }
