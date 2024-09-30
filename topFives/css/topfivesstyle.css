@@ -1,21 +1,210 @@
+/* css styling */
+
+/* header */
 *{
     margin: 10px;
 }
 
 header{
-    background-color: lightblue;
+    background-color: #7391C8;
     /* padding: 50px; */
 }
 
 header a{
-    color: cadetblue;
-    font-family: "glammo";
+    color: #52688F;
+    font-family: "glammo", sans-serif;
     font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 140px;
-}
+    /* padding: 140px; */
+    width: 80%;
+    padding-left: 15%;
+    position: relative;
+    bottom: 85px;
+    right: 110px;
+    }
 
 body{
-    background-color: antiquewhite;
+    background-color: #E3E7F1;
+}
+
+/* section */
+
+h1, h2{
+    color: #52688F;
+    font-family: "glammo", sans-serif;
+    /* font-family: "tomarik-brush", sans-serif; */
+    /* font-family: "quiche-sans", sans-serif; */
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+article{
+    text-align: center;
+}
+
+li{
+    padding-top: 20px;
+}
+
+footer{
+    background-color: #52688F;
+    /* margin-left: 35%; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+
+footer i{
+    color: aliceblue;
+}
+
+footer a{
+    color: #BDC6D9;
+    text-decoration: none;
+    font-family: "quiche-sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+/* flexbox styling */
+
+#inspo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mofusand{
+    /* background-color: rgb(134, 188, 206); */
+    border-radius: 8%;
+    width: 20%;
+}
+
+/* anime */
+
+.anime ol{
+    color: #A39D92;
+    font-family: "glammo", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+.world{
+    width: 30%;
+    padding: 10px;
+    background-color: #9AB19A;
+    border-radius: 8%;
+}
+
+.worldlink {
+    color: #79756e;
+}
+
+.kageyamaCrow{
+    width: 30%;
+}
+
+.trio{
+    width: 30%;
+    padding: 10px;
+    position: relative;
+    bottom: 100px;
+    background-color: #7391C8;
+}
+
+.hinataCrow{
+    width: 30%;
+}
+
+.haikyulink{
+    color: #79756e;
+}
+
+.sign{
+    width: 30%;
+    padding: 10px;
+    background-color: #A39D92;
+    border-radius: 8%;
+}
+
+.signlink{
+    color: #79756e;
+}
+
+/* fruits */
+
+.fruits ul{
+    color: #A39D92;
+    font-family: "glammo", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+.mangosteen{
+    width: 30%;
+    background-color: #9AB19A;
+    border-radius: 8%;
+}
+
+.fruitlink{
+    color: #79756e;
+}
+
+.durian{
+    width: 40%;
+}
+
+.lychee{
+    width: 30%;
+    background-color: #7391C8;
+    border-radius: 8%;
+}
+
+/* snowy */
+
+.snowy{
+    color: #A39D92;
+    font-family: "glammo", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+.circle{
+    width: 30%;
+    background-color: #A39D92;
+    border-radius: 8%;
+}
+
+.paw{
+    width: 30%;
+    padding: 10px;
+    background-color: #9AB19A;
+}
+
+.pose{
+    width: 40%;
+    padding: 10px;
+    background-color: #7391C8;
+    /* border-radius: 8%; */
+}
+
+.snowylink{
+    color: #79756e;
 }

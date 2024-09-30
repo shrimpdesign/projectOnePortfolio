@@ -51,6 +51,10 @@ footer{
     letter-spacing: 5px;
 }
 
+footer i{
+    color: aliceblue;
+}
+
 footer a{
     color: #BDC6D9;
     text-decoration: none;

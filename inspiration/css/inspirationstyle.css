@@ -1,5 +1,6 @@
 /* css styling */
 
+/* header */
 *{
     margin: 10px;
     padding: 0;
@@ -28,6 +29,8 @@ body{
     background-color: #E3E7F1;
 }
 
+/* section */
+
 h1{
     color: #52688F;
     font-family: "glammo", sans-serif;
@@ -55,6 +58,10 @@ footer{
     text-align: center;
     word-spacing: 10px;
     letter-spacing: 5px;
+}
+
+footer i{
+    color: aliceblue;
 }
 
 footer a{
